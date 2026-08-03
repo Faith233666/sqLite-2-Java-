@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: user-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: ALLOWED_ORIGINS
+        value: https://gregarious-cendol-a566b0.netlify.app
+      - key: DB_PATH
+        value: /app/data/demo.db

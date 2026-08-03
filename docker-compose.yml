@@ -1,0 +1,16 @@
+services:
+  user-api:
+    build: .
+    container_name: user-api
+    ports:
+      - "8080:8080"
+    environment:
+      PORT: 8080
+      DB_PATH: /app/data/demo.db
+      WEB_ROOT: /app/web
+    volumes:
+      - user-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  user-data:

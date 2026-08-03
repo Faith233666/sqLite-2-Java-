@@ -1,0 +1,46 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.kotlin
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# SQLite 数据库文件
+demo.db
+data/
+
+# 构建产物
+user-api.jar
+out/
+target/
+
+# 手动下载的依赖（Docker 构建时会自动下载）
+lib/
+
+# IDE 本地配置
+.idea/workspace.xml
+.idea/dataSources.local.xml

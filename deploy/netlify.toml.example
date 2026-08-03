@@ -1,0 +1,9 @@
+# 将此文件放到 Netlify 前端项目根目录，并替换 BACKEND_URL 为 Render 部署后的后端地址
+#
+# 示例后端地址: https://user-api-xxxx.onrender.com
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://BACKEND_URL.onrender.com/api/:splat"
+  status = 200
+  force = true

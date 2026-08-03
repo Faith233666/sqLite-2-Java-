@@ -1,0 +1,9 @@
+2026-08-03 10:00:01 INFO Application started
+2026-08-03 10:00:02 ERROR Connection failed error timeout
+2026-08-03 10:00:03 WARN Retrying connection
+2026-08-03 10:00:04 ERROR Connection failed again
+2026-08-03 10:00:05 INFO Connection restored
+2026-08-03 10:00:06 DEBUG 用户登录成功
+2026-08-03 10:00:07 INFO 用户登录成功
+2026-08-03 10:00:08 ERROR 数据库连接失败
+2026-08-03 10:00:09 WARN 数据库连接失败 正在重试
