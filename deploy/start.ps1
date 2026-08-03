@@ -6,7 +6,7 @@ Set-Location $Root
 
 $env:DB_PATH = Join-Path $Root "data\demo.db"
 $env:WEB_ROOT = Join-Path $Root "web"
-$Port = if ($env:PORT) { $env:PORT } else { "8080" }
+$Port = if ($env:PORT) { $env:PORT } else { "3000" }
 
 Write-Host "启动服务: http://localhost:$Port"
 java -cp "user-api.jar;lib\*" sqlite.UserApiServer $Port

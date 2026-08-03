@@ -10,7 +10,7 @@ docker compose up -d --build
 
 echo ""
 echo "部署完成！"
-echo "  前端 + API: http://服务器IP:8080"
+echo "  前端 + API: http://服务器IP:3000"
 echo "  数据库文件: Docker volume user-data"
 echo ""
 echo "常用命令:"

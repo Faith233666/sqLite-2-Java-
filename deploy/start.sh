@@ -8,7 +8,7 @@ bash deploy/build.sh
 
 export DB_PATH="$ROOT/data/demo.db"
 export WEB_ROOT="$ROOT/web"
-export PORT="${PORT:-8080}"
+export PORT="${PORT:-3000}"
 
 echo "启动服务: http://0.0.0.0:$PORT"
 exec java -cp "user-api.jar:lib/*" sqlite.UserApiServer "$PORT"

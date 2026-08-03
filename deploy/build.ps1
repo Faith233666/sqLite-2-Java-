@@ -28,4 +28,4 @@ javac -encoding UTF-8 -cp $Cp -d out `
 jar cfe user-api.jar sqlite.UserApiServer -C out .
 
 Write-Host "构建完成: user-api.jar"
-Write-Host "启动命令: java -cp user-api.jar;lib\* sqlite.UserApiServer 8080"
+Write-Host "启动命令: java -cp user-api.jar;lib\* sqlite.UserApiServer 3000"

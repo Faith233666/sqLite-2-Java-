@@ -31,7 +31,7 @@ RUN mkdir -p /app/data
 ENV DB_PATH=/app/data/demo.db
 ENV ALLOWED_ORIGINS=https://gregarious-cendol-a566b0.netlify.app
 
-EXPOSE 8080
+EXPOSE 3000
 VOLUME ["/app/data"]
 
 CMD ["sh", "-c", "java -cp /app/user-api.jar:/app/lib/* sqlite.UserApiServer"]

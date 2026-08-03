@@ -22,7 +22,7 @@ import java.util.List;
  */
 public class UserApiServer {
 
-    private static final int DEFAULT_PORT = 8080;
+    private static final int DEFAULT_PORT = 3000;
     private static final String ALLOWED_ORIGINS = resolveAllowedOrigins();
     private final UserDao userDao = new UserDao();
     private final Gson gson = new GsonBuilder().serializeNulls().create();

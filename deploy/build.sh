@@ -29,4 +29,4 @@ javac -encoding UTF-8 -cp "$SQLITE_JAR:$GSON_JAR" -d out \
 jar cfe user-api.jar sqlite.UserApiServer -C out .
 
 echo "构建完成: user-api.jar"
-echo "启动命令: DB_PATH=./data/demo.db WEB_ROOT=./web java -cp user-api.jar:lib/* sqlite.UserApiServer 8080"
+echo "启动命令: DB_PATH=./data/demo.db WEB_ROOT=./web java -cp user-api.jar:lib/* sqlite.UserApiServer 3000"
